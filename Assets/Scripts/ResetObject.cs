@@ -29,10 +29,7 @@ public class ResetObject : MonoBehaviour
 
     void Update()
     {
-        if (_photonView.IsMine && InputBridge.Instance.BButtonDown)
-        {
-            ResetToInitialTransform();
-        }
+        
     }
 
 

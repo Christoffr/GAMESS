@@ -7,7 +7,6 @@ using BNG;
 
 public class ButtonResetBoards : MonoBehaviour
 {
-    private string objectName = "MarkerLineHolder";
     // Start is called before the first frame update
     void Start()
     {
@@ -17,11 +16,7 @@ public class ButtonResetBoards : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if (InputBridge.Instance.AButtonDown)
-        {
-            DestroyObjectByName(objectName);
-        }   
+
     }
 
     public void DestroyObjectByName(string name)
