@@ -51,7 +51,7 @@ public class ResetObject : MonoBehaviour
         transform.localScale = _initialScale;
 
         // If PhotonView doesn't automatically sync transform changes, you might need to update it explicitly:
-        //_photonView.RPC("SyncTransform", RpcTarget.OthersBuffered, transform.position, transform.rotation, transform.localScale);
+        _photonView.RPC("SyncTransform", RpcTarget.OthersBuffered, transform.position, transform.rotation, transform.localScale);
     }
 
     [PunRPC]
