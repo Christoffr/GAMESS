@@ -19,7 +19,7 @@ MonoBehaviour:
     AppIdVoice: 04d93352-7e78-428e-9e40-3945d831ce9e
     AppVersion: 
     UseNameServer: 1
-    FixedRegion: 
+    FixedRegion: eu
     Server: 
     Port: 0
     ProxyServer: 
@@ -49,6 +49,7 @@ MonoBehaviour:
   - SyncActive
   - SyncInitialChanges
   - SyncDropdownLanguage
+  - SyncDestroyObjectByName
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

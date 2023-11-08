@@ -88,16 +88,6 @@ public class DropdownSelection : MonoBehaviour
             _blackBoardTwo.text = "Μαυροπίνακας 2";
             _blackBoardThree.text = "Μαυροπίνακας 3";
             break;
-            case 6: // Türkçe
-            _header.text = "Kontrol Paneli";
-            _label.text = "Türkçe";
-            _resetObjects.text = "Nesneleri sıfırla";
-            _resetBoards.text = "Panoları sıfırla";
-            _whiteBoard.text = "Beyaz tahta";
-            _blackBoardOne.text = "Karatahta 1";
-            _blackBoardTwo.text = "Karatahta 2";
-            _blackBoardThree.text = "Karatahta 3";
-            break;
             default:
             break;
         }

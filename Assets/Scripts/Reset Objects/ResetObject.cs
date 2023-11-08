@@ -1,10 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.PlayerLoop;
 using Photon.Pun;
-using BNG;
 
 
 public class ResetObject : MonoBehaviour

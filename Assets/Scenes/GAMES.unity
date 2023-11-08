@@ -13284,8 +13284,6 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: "\u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AC"
       m_Image: {fileID: 0}
-    - m_Text: "T\xFCrk\xE7e"
-      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -17487,6 +17485,7 @@ GameObject:
   - component: {fileID: 1380656540}
   - component: {fileID: 1380656539}
   - component: {fileID: 1380656538}
+  - component: {fileID: 1380656542}
   m_Layer: 5
   m_Name: Reset Boards Button
   m_TagString: Untagged
@@ -17527,6 +17526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b15f8b82e607f904983f4483a67bb01c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _photonview: {fileID: 1380656542}
 --- !u!114 &1380656539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17621,6 +17621,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380656536}
   m_CullTransparentMesh: 1
+--- !u!114 &1380656542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380656536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 61
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
 --- !u!1 &1386750235
 GameObject:
   m_ObjectHideFlags: 0
@@ -18749,17 +18771,17 @@ PrefabInstance:
     - target: {fileID: 9165342806373082573, guid: a789d0b9ce34ff842880e59ef8261779,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9165342806373082573, guid: a789d0b9ce34ff842880e59ef8261779,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9165342806373082573, guid: a789d0b9ce34ff842880e59ef8261779,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 9165342806373082573, guid: a789d0b9ce34ff842880e59ef8261779,
         type: 3}
@@ -26700,6 +26722,11 @@ PrefabInstance:
       propertyPath: DebugText
       value: 
       objectReference: {fileID: 478068674}
+    - target: {fileID: 3402538391894373897, guid: 9a6b877f35da7aa4db556157d656d0ff,
+        type: 3}
+      propertyPath: JoinRoomOnStart
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3402538391894373897, guid: 9a6b877f35da7aa4db556157d656d0ff,
         type: 3}
       propertyPath: RemotePlayerObjectName
