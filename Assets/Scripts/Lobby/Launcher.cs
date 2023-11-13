@@ -5,6 +5,7 @@ using Photon.Pun;
 using TMPro;
 using UnityEngine.UI;
 using Photon.Realtime;
+using BNG;
 
 public class Launcher : MonoBehaviourPunCallbacks
 {
@@ -54,6 +55,21 @@ public class Launcher : MonoBehaviourPunCallbacks
         //MenuManager.Instance.OpenMenu("room");
         //roomNameText.text = PhotonNetwork.CurrentRoom.Name;
         MenuManager.Instance.OpenMenu("loading");
+        
+        /*// Network Instantiate the object used to represent our player. This will have a View on it and represent the player         
+        GameObject player = PhotonNetwork.Instantiate("RemotePlayer", new Vector3(0f, 0f, 0f), Quaternion.identity, 0);
+        BNG.NetworkPlayer np = player.GetComponent<BNG.NetworkPlayer>();
+        if (np) 
+        {
+            np.transform.name = "MyRemotePlayer";
+            np.AssignPlayerObjects();
+            Debug.Log("NetworkPlayer component found on " + np.transform);
+        }
+        else
+        {
+            Debug.Log("NetworkPlayer component not found on instantiated player.");
+        }*/
+
         PhotonNetwork.LoadLevel(1);
     }
 

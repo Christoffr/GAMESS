@@ -907,6 +907,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: "MarkerR\xF8d"
       objectReference: {fileID: 0}
+    - target: {fileID: 7398920361860554889, guid: b9bc860373922584080483018760241f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 7398920362853628934, guid: b9bc860373922584080483018760241f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1217,6 +1222,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Camping_Axe
       objectReference: {fileID: 0}
+    - target: {fileID: 3290598117132601010, guid: c78b2f6da8c496044acf68bbb77bee45,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 4009919533279016670, guid: c78b2f6da8c496044acf68bbb77bee45,
         type: 3}
       propertyPath: m_Enabled
@@ -1259,7 +1269,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 0
+  OwnershipTransfer: 2
   observableSearch: 2
   ObservedComponents:
   - {fileID: 109838901}
@@ -1957,6 +1967,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Toothbrush_02
       objectReference: {fileID: 0}
+    - target: {fileID: 8224626104435595654, guid: 74cf6ca496bdaa3488d7413a65e7e662,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 8224626104435885478, guid: 74cf6ca496bdaa3488d7413a65e7e662,
         type: 3}
       propertyPath: m_RootOrder
@@ -2539,6 +2554,68 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 216212246}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &216212248 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5117846498257179513, guid: 2af1d2045149fe743b81bc4d1a6f8406,
+    type: 3}
+  m_PrefabInstance: {fileID: 216212246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &216212249 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5116132295859591579, guid: 2af1d2045149fe743b81bc4d1a6f8406,
+    type: 3}
+  m_PrefabInstance: {fileID: 216212246}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &216212250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216212248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58e5a156337291444beb5270124903d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &216212251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216212249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58e5a156337291444beb5270124903d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!135 &216212254
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216212248}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &216212257
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 216212249}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &219841022
 GameObject:
   m_ObjectHideFlags: 0
@@ -2902,6 +2979,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MarkerBlack (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398920361860554889, guid: b9bc860373922584080483018760241f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 9114339052287160625, guid: b9bc860373922584080483018760241f,
         type: 3}
@@ -3607,6 +3689,11 @@ PrefabInstance:
       propertyPath: viewIdField
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1227900757193237028, guid: 10c9462aa623df9478b05b11a7ee5af8,
+        type: 3}
+      propertyPath: OwnershipTransfer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2031653308432751605, guid: 10c9462aa623df9478b05b11a7ee5af8,
         type: 3}
       propertyPath: m_Name
@@ -3616,6 +3703,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031653308432751605, guid: 10c9462aa623df9478b05b11a7ee5af8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 2031653308432751615, guid: 10c9462aa623df9478b05b11a7ee5af8,
         type: 3}
@@ -3836,6 +3928,11 @@ PrefabInstance:
       propertyPath: viewIdField
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1227900757193237028, guid: 10c9462aa623df9478b05b11a7ee5af8,
+        type: 3}
+      propertyPath: OwnershipTransfer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2031653308432751605, guid: 10c9462aa623df9478b05b11a7ee5af8,
         type: 3}
       propertyPath: m_Name
@@ -3845,6 +3942,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031653308432751605, guid: 10c9462aa623df9478b05b11a7ee5af8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 2031653308432751609, guid: 10c9462aa623df9478b05b11a7ee5af8,
         type: 3}
@@ -3939,7 +4041,7 @@ GameObject:
   - component: {fileID: 363595431}
   m_Layer: 0
   m_Name: Angry
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3973,7 +4075,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 0
+  OwnershipTransfer: 2
   observableSearch: 2
   ObservedComponents:
   - {fileID: 363595433}
@@ -4436,6 +4538,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MarkerBlack (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398920361860554889, guid: b9bc860373922584080483018760241f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 9114339052287160625, guid: b9bc860373922584080483018760241f,
         type: 3}
@@ -5843,6 +5950,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flask
       objectReference: {fileID: 0}
+    - target: {fileID: 4745661115560378933, guid: 3ff9c98c0990fce468bb0d49a51b6461,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 5372839472002766991, guid: 3ff9c98c0990fce468bb0d49a51b6461,
         type: 3}
       propertyPath: m_RootOrder
@@ -6265,7 +6377,7 @@ GameObject:
   - component: {fileID: 478565973}
   m_Layer: 0
   m_Name: Kryds (1)
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6746,6 +6858,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Katana
       objectReference: {fileID: 0}
+    - target: {fileID: 920710378339818143, guid: a7d6b8c7104034c459c257fce0277176,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 920710378339818138, guid: a7d6b8c7104034c459c257fce0277176, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a7d6b8c7104034c459c257fce0277176, type: 3}
@@ -6766,7 +6883,7 @@ GameObject:
   - component: {fileID: 510107303}
   m_Layer: 0
   m_Name: bolle (1)
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8858,7 +8975,7 @@ GameObject:
   - component: {fileID: 682135540}
   m_Layer: 0
   m_Name: Kryds (2)
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9563,6 +9680,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MarkerBlack (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7398920361860554889, guid: b9bc860373922584080483018760241f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 9114339052287160625, guid: b9bc860373922584080483018760241f,
         type: 3}
       propertyPath: buttonResetObject
@@ -10076,6 +10198,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4046698007458294363, guid: dded405d29dd5ea4998b68485176a275,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 4046698007458294370, guid: dded405d29dd5ea4998b68485176a275,
         type: 3}
       propertyPath: m_RootOrder
@@ -10171,7 +10298,7 @@ GameObject:
   - component: {fileID: 781330784}
   m_Layer: 0
   m_Name: Kryds
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10591,6 +10718,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tent_A_01
       objectReference: {fileID: 0}
+    - target: {fileID: 3918036935182654285, guid: b5991b8efe7e0044888b9058f6d3119f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 4401276300218352119, guid: b5991b8efe7e0044888b9058f6d3119f,
         type: 3}
       propertyPath: m_RootOrder
@@ -11009,6 +11141,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cup_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 7576743425305394085, guid: bf07f866549108f419e0edfda8b2838f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 7576743425305552773, guid: bf07f866549108f419e0edfda8b2838f,
         type: 3}
@@ -11809,7 +11946,7 @@ GameObject:
   - component: {fileID: 891097696}
   m_Layer: 0
   m_Name: Cheerful
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12260,6 +12397,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MarkerBlack (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398920361860554889, guid: b9bc860373922584080483018760241f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 9114339052287160625, guid: b9bc860373922584080483018760241f,
         type: 3}
@@ -12949,6 +13091,19 @@ MonoBehaviour:
   sceneViewId: 9
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1005646854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005646844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aca32aaf96d66c46a5e9007431c43ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedPlayer: {fileID: 11400000, guid: 852f43921b3825848800b0a3830ea456, type: 2}
 --- !u!1 &1011789525
 GameObject:
   m_ObjectHideFlags: 0
@@ -13702,7 +13857,7 @@ GameObject:
   - component: {fileID: 1123530930}
   m_Layer: 0
   m_Name: bolle (2)
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14202,6 +14357,11 @@ PrefabInstance:
       propertyPath: viewIdField
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1227900757193237028, guid: 10c9462aa623df9478b05b11a7ee5af8,
+        type: 3}
+      propertyPath: OwnershipTransfer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2031653308432751605, guid: 10c9462aa623df9478b05b11a7ee5af8,
         type: 3}
       propertyPath: m_Name
@@ -14211,6 +14371,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2031653308432751605, guid: 10c9462aa623df9478b05b11a7ee5af8,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 2031653308432751609, guid: 10c9462aa623df9478b05b11a7ee5af8,
         type: 3}
@@ -14884,6 +15049,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MarkerBlack
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398920361860554889, guid: b9bc860373922584080483018760241f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 9114339052287160625, guid: b9bc860373922584080483018760241f,
         type: 3}
@@ -15869,7 +16039,7 @@ GameObject:
   - component: {fileID: 1292642253}
   m_Layer: 0
   m_Name: Happy
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16455,7 +16625,7 @@ GameObject:
   - component: {fileID: 1327135040}
   m_Layer: 0
   m_Name: Crying
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18244,7 +18414,7 @@ GameObject:
   - component: {fileID: 1434840845}
   m_Layer: 0
   m_Name: Sad
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18952,7 +19122,7 @@ GameObject:
   - component: {fileID: 1513701275}
   m_Layer: 0
   m_Name: Surprised
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19463,6 +19633,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MarkerBlack (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7398920361860554889, guid: b9bc860373922584080483018760241f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 9114339052287160625, guid: b9bc860373922584080483018760241f,
         type: 3}
       propertyPath: buttonResetObject
@@ -19626,7 +19801,7 @@ GameObject:
   - component: {fileID: 1574582821}
   m_Layer: 0
   m_Name: bolle
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20423,6 +20598,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pan_02
       objectReference: {fileID: 0}
+    - target: {fileID: 6047494007194418197, guid: 1c9df5d0b8d121244b60b271f12913fe,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 6047494007194902581, guid: 1c9df5d0b8d121244b60b271f12913fe,
         type: 3}
       propertyPath: m_RootOrder
@@ -21117,7 +21297,7 @@ GameObject:
   - component: {fileID: 1680749338}
   m_Layer: 0
   m_Name: Nervouse
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21481,6 +21661,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MarkerBlack (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7398920361860554889, guid: b9bc860373922584080483018760241f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 9114339052287160625, guid: b9bc860373922584080483018760241f,
         type: 3}
       propertyPath: buttonResetObject
@@ -21713,6 +21898,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MarkerHvid (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398920361860554889, guid: b9bc860373922584080483018760241f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 7398920362853628934, guid: b9bc860373922584080483018760241f,
         type: 3}
@@ -21951,6 +22141,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MarkerHvid
+      objectReference: {fileID: 0}
+    - target: {fileID: 7398920361860554889, guid: b9bc860373922584080483018760241f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 7398920362853628934, guid: b9bc860373922584080483018760241f,
         type: 3}
@@ -24336,6 +24531,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Knife_01
       objectReference: {fileID: 0}
+    - target: {fileID: 2751938607480727681, guid: 8e190efad590aee4d9dc6b0075f8a6c4,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 2751938607480960161, guid: 8e190efad590aee4d9dc6b0075f8a6c4,
         type: 3}
       propertyPath: m_RootOrder
@@ -24632,6 +24832,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fork
+      objectReference: {fileID: 0}
+    - target: {fileID: 449477927373551050, guid: 061a135fd56dba04da9595cfbb667632,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 449477927373711850, guid: 061a135fd56dba04da9595cfbb667632,
         type: 3}
@@ -25683,6 +25888,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MarkerHvid (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7398920361860554889, guid: b9bc860373922584080483018760241f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 7398920362853628934, guid: b9bc860373922584080483018760241f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -26153,6 +26363,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bonfire_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8475171451159580080, guid: 6046a64e832cdad44ac9e18fe66d19f1,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 9139504745563969290, guid: 6046a64e832cdad44ac9e18fe66d19f1,
         type: 3}
@@ -26740,7 +26955,7 @@ PrefabInstance:
     - target: {fileID: 3402538391894373899, guid: 9a6b877f35da7aa4db556157d656d0ff,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a6b877f35da7aa4db556157d656d0ff, type: 3}

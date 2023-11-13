@@ -78,7 +78,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/GAMES_LOBBY.unity
     guid: c135d80b6684e41488cc6b1c63de3ee6
   - enabled: 1
