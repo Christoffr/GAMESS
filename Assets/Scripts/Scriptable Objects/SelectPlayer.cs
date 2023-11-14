@@ -17,6 +17,12 @@ public class SelectPlayer : ScriptableObject
             case 1:
                 RemotePlayer = "RemotePlayer_Hat";
             break;
+            case 2:
+                RemotePlayer = "RemotePlayer_Mustache";
+            break;
+            case 3:
+                RemotePlayer = "RemotePlayer_Viking";
+            break;
             default:
             break;
         }
