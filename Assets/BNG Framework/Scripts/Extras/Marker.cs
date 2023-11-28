@@ -1,4 +1,6 @@
 ﻿using System.Collections;
+using Photon.Pun;
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace BNG {
@@ -98,6 +100,7 @@ namespace BNG {
                 if (root == null) {
                     root = new GameObject().transform;
                     root.name = "MarkerLineHolder";
+                    root.AddComponent<PhotonView>();
                 }
                 lastTransform.parent = root;
                 lastTransform.position = endPosition;
