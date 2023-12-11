@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 5f12097ea265ad44790cb4c9a8ca1cbb,
+    type: 2}
   m_LightingSettings: {fileID: 1948903963}
 --- !u!196 &4
 NavMeshSettings:
@@ -218,7 +219,7 @@ GameObject:
   - component: {fileID: 12431571}
   - component: {fileID: 12431570}
   - component: {fileID: 12431569}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackPanel (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -604,7 +605,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 59211072}
@@ -984,7 +985,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 1
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 92706863}
@@ -1421,7 +1422,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 109838901}
@@ -2935,6 +2936,31 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5759788174737073576, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175072045372, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175283609869, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175363811328, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175432188861, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
       propertyPath: m_RootOrder
@@ -3012,8 +3038,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5759788175828937641, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937641, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788176206540448, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788176272798888, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597551268740539954, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597551269173411423, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1196da97cc726d48bb5c44c053d9cef, type: 3}
@@ -3313,7 +3364,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 1
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 236764640}
@@ -4877,7 +4928,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 1
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 376820958}
@@ -6653,7 +6704,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 478565968}
@@ -7159,7 +7210,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 510107298}
@@ -9154,7 +9205,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 682135535}
@@ -9830,12 +9881,12 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 1
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
-  - {fileID: 736089125}
-  - {fileID: 736089123}
   - {fileID: 736089122}
+  - {fileID: 736089123}
+  - {fileID: 736089125}
   sceneViewId: 42
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -10365,6 +10416,11 @@ PrefabInstance:
       propertyPath: viewIdField
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 8770020790522591365, guid: dded405d29dd5ea4998b68485176a275,
+        type: 3}
+      propertyPath: OwnershipTransfer
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dded405d29dd5ea4998b68485176a275, type: 3}
 --- !u!4 &758413087 stripped
@@ -10497,7 +10553,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 781330779}
@@ -12665,7 +12721,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 1
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 913798092}
@@ -13323,6 +13379,31 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5759788174737073576, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175072045372, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175283609869, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175363811328, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175432188861, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
       propertyPath: m_RootOrder
@@ -13400,8 +13481,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5759788175828937641, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937641, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788176206540448, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788176272798888, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597551268740539954, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597551269173411423, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1196da97cc726d48bb5c44c053d9cef, type: 3}
@@ -13542,6 +13648,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedPlayer: {fileID: 11400000, guid: 852f43921b3825848800b0a3830ea456, type: 2}
+--- !u!114 &1005646858
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005646844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 526c489d11c54144d966e15d3465b0a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1011789525
 GameObject:
   m_ObjectHideFlags: 0
@@ -14402,7 +14520,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 1123530925}
@@ -18122,7 +18240,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1380656538}
         m_TargetAssemblyTypeName: ButtonResetBoards, Assembly-CSharp
-        m_MethodName: DestroyObjectByName
+        m_MethodName: DestroyObjectByTag
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19914,7 +20032,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 1
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 1538712987}
@@ -20116,7 +20234,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 3
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 1574582816}
@@ -21198,7 +21316,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631366721}
   m_LocalRotation: {x: -0.32370222, y: -0.63105863, z: -0.62448466, w: 0.32710984}
-  m_LocalPosition: {x: 0, y: 3, z: 1.813}
+  m_LocalPosition: {x: 0, y: 1.795, z: 1.813}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21407,7 +21525,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1666348145
 Light:
   m_ObjectHideFlags: 0
@@ -21947,7 +22065,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 1
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 1715362092}
@@ -22232,7 +22350,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 1
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 1728100855}
@@ -22480,7 +22598,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 1
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 1749501182}
@@ -23959,7 +24077,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 1
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 1909931000}
@@ -24012,7 +24130,7 @@ GameObject:
   - component: {fileID: 1911206165}
   - component: {fileID: 1911206164}
   - component: {fileID: 1911206163}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackPanel (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24367,7 +24485,7 @@ LightingSettings:
   m_PVREnvironmentSampleCount: 500
   m_PVREnvironmentReferencePointCount: 2048
   m_LightProbeSampleCountMultiplier: 4
-  m_PVRBounces: 2
+  m_PVRBounces: 3
   m_PVRMinBounces: 2
   m_PVREnvironmentMIS: 0
   m_PVRFilteringMode: 2
@@ -25892,7 +26010,7 @@ GameObject:
   - component: {fileID: 2099636480}
   - component: {fileID: 2099636479}
   - component: {fileID: 2099636478}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackPanel (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26004,6 +26122,31 @@ PrefabInstance:
       propertyPath: m_FontData.m_Alignment
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5759788174737073576, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175072045372, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175283609869, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175363811328, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175432188861, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5759788175828937640, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
       propertyPath: m_RootOrder
@@ -26081,8 +26224,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5759788175828937641, guid: d1196da97cc726d48bb5c44c053d9cef,
         type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788175828937641, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788176206540448, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759788176272798888, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597551268740539954, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8597551269173411423, guid: d1196da97cc726d48bb5c44c053d9cef,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1196da97cc726d48bb5c44c053d9cef, type: 3}
@@ -26334,7 +26502,7 @@ MonoBehaviour:
   Group: 0
   prefixField: -1
   Synchronization: 1
-  OwnershipTransfer: 2
+  OwnershipTransfer: 1
   observableSearch: 2
   ObservedComponents:
   - {fileID: 2113355952}

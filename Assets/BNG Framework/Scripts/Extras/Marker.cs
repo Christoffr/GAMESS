@@ -6,6 +6,7 @@ using UnityEngine;
 namespace BNG {
     public class Marker : GrabbableEvents {
 
+        public PhotonView photonView;
         public Material DrawMaterial;
         public Color DrawColor = Color.red;
         public float LineWidth = 0.02f;
@@ -34,6 +35,7 @@ namespace BNG {
 
         private void Start()
         {
+            photonView = GetComponent<PhotonView>();
             drawRoutine = StartCoroutine(WriteRoutine());
         }
 
@@ -62,6 +64,7 @@ namespace BNG {
                     Quaternion drawRotation = Quaternion.FromToRotation(Vector3.back, hit.normal);
                     float lineWidth = LineWidth * (1 - tipDercentage);
                     InitDraw(drawStart, drawRotation, lineWidth, DrawColor);
+                    photonView.RPC("RpcInitDraw", RpcTarget.AllBuffered, drawStart, drawRotation, lineWidth);
                 }
                 else {
                     IsNewDraw = true;
@@ -74,6 +77,21 @@ namespace BNG {
             if (IsNewDraw) {
                 lastDrawPoint = position;
                 DrawPoint(lastDrawPoint, position, lineWidth, lineColor, rotation);
+                IsNewDraw = false;
+            }
+            else {
+                float dist = Vector3.Distance(lastDrawPoint, position);
+                if (dist > MinDrawDistance) {
+                    lastDrawPoint = DrawPoint(lastDrawPoint, position, lineWidth, DrawColor, rotation);
+                }
+            }
+        }
+
+        [PunRPC]
+        void RpcInitDraw(Vector3 position, Quaternion rotation, float lineWidth) {
+            if (IsNewDraw) {
+                lastDrawPoint = position;
+                DrawPoint(lastDrawPoint, position, lineWidth, DrawColor, rotation);
                 IsNewDraw = false;
             }
             else {
@@ -100,7 +118,7 @@ namespace BNG {
                 if (root == null) {
                     root = new GameObject().transform;
                     root.name = "MarkerLineHolder";
-                    root.AddComponent<PhotonView>();
+                    root.tag = "MarkerLineHolder";
                 }
                 lastTransform.parent = root;
                 lastTransform.position = endPosition;

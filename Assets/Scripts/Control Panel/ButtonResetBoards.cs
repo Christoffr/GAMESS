@@ -21,21 +21,22 @@ public class ButtonResetBoards : MonoBehaviour
 
     }
 
-    public void DestroyObjectByName(string name)
+    public void DestroyObjectByTag(string tag)
     {
-        Debug.Log("Button Clicked!");
-        _photonview.RPC("SyncDestroyObjectByName", RpcTarget.AllBuffered, name);
+        _photonview.RPC("SyncDestroyObjectByTag", RpcTarget.AllBuffered, tag);
     }
 
     [PunRPC]
-    void SyncDestroyObjectByName(string name)
+    void SyncDestroyObjectByTag(string tag)
     {
-        Debug.Log("Sync Destroy Obejct By Name");
-        GameObject objectToDestroy = GameObject.Find(name);
+        //GameObject objectToDestroy = GameObject.Find(name);
 
-        if (objectToDestroy != null)
+        foreach (var objectToDestroy in GameObject.FindGameObjectsWithTag(tag))
         {
-            Destroy(objectToDestroy);
+            if (objectToDestroy != null)
+            {
+                Destroy(objectToDestroy);
+            }   
         }
     }
 }
