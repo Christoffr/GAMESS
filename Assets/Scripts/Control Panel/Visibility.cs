@@ -1,17 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using Photon.Pun;
 using UnityEngine;
 
-public class Visibility : MonoBehaviour
+public class Visibility : MonoBehaviourPunCallbacks
 {
     [SerializeField] private GameObject controlPanel;
-    [SerializeField] private PhotonView photonView;
+    //[SerializeField] private PhotonView photonView;
 
     private void Start()
     {
-        if (photonView.IsMine)
+        if (PhotonNetwork.IsMasterClient)
         {
+            Debug.Log("Is Master Client");
             controlPanel.SetActive(true);
         }
         else

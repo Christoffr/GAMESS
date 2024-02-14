@@ -90,7 +90,11 @@ EditorBuildSettings:
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 2ec24d39f7b5ac84aad7e5df7b4fd3ea,
       type: 2}
     WebXR.Settings: {fileID: 11400000, guid: fe9659bb224bb054bb1dbca065d1d318, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: f5c90201f79753640ba3929750a9130c,
+      type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 7c0d65f8139523c47a3ac0b1587ccdf6,
+      type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 9a7715f7adc8f8849877a330cf2e0302,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 88b1f59effd18234689ddd33dd8b2e01,
       type: 2}

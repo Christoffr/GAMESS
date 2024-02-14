@@ -8,7 +8,7 @@ public class DropdownSelection : MonoBehaviour
 {
     [SerializeField] private PhotonView _photonView;
     [SerializeField] private TMP_Text _header;
-     [SerializeField] private TMP_Text _label;
+    [SerializeField] private TMP_Text _label;
     [SerializeField] private TMP_Text _resetObjects;
     [SerializeField] private TMP_Text _resetBoards;
     [SerializeField] private TMP_Text _whiteBoard;
@@ -28,7 +28,7 @@ public class DropdownSelection : MonoBehaviour
     {
         switch (index)
         {
-            case 0: // English
+            case 0: // Engelsk
             _header.text = "Control Panel";
             _label.text = "English";
             _resetObjects.text = "Reset Objects";
@@ -48,45 +48,45 @@ public class DropdownSelection : MonoBehaviour
             _blackBoardTwo.text = "Tavle 2";
             _blackBoardThree.text = "Tavle 3";
             break;
-            case 2: // Suomalainen
-            _header.text = "Ohjauspaneeli";
+            case 2: // Finsk
+            _header.text = "Hallintapaneeli";
             _label.text = "Suomalainen";
-            _resetObjects.text = "Palauta objektit";
-            _resetBoards.text = "Nollaa levyt";
+            _resetObjects.text = "Nollaa kohteet";
+            _resetBoards.text = "Nollaa taulut";
             _whiteBoard.text = "Valkotaulu";
             _blackBoardOne.text = "Liitutaulu 1";
             _blackBoardTwo.text = "Liitutaulu 2";
             _blackBoardThree.text = "Liitutaulu 3";            
             break;
-            case 3: // Español
+            case 3: // Spansk
             _header.text = "Panel de control";
             _label.text = "Español";
             _resetObjects.text = "Restablecer objetos";
-            _resetBoards.text = "Restablecer tableros";
-            _whiteBoard.text = "Pizarron";
-            _blackBoardOne.text = "Pizarra 1";
-            _blackBoardTwo.text = "Pizarra 2";
-            _blackBoardThree.text = "Pizarra 3";
+            _resetBoards.text = "Restablecer pizzaras";
+            _whiteBoard.text = "Pizarra blanca";
+            _blackBoardOne.text = "Pizarra negra 1";
+            _blackBoardTwo.text = "Pizarra negra 2";
+            _blackBoardThree.text = "Pizarra negra 3";
             break;
-            case 4: // Hrvatski
+            case 4: // Kroatisk
             _header.text = "Upravljačka ploča";
             _label.text = "Hrvatski";
             _resetObjects.text = "Resetiraj objekte";
             _resetBoards.text = "Resetiraj ploče";
             _whiteBoard.text = "Bijela ploča";
-            _blackBoardOne.text = "Ploča 1";
-            _blackBoardTwo.text = "Ploča 2";
-            _blackBoardThree.text = "Ploča 3";
+            _blackBoardOne.text = "Školska ploča 1";
+            _blackBoardTwo.text = "Školska ploča 2";
+            _blackBoardThree.text = "Školska ploča 3";
             break;
-            case 5: // Ελληνικά
-            _header.text = "Πινακας Ελέγχου";
+            case 5: // Græsk
+            _header.text = "Πίνακας Eλέγχου";
             _label.text = "Ελληνικά";
-            _resetObjects.text = "Επαναφορά αντικειμένων";
-            _resetBoards.text = "Επαναφορά πλακών";
-            _whiteBoard.text = "Λευκός πίνακας";
-            _blackBoardOne.text = "Μαυροπίνακας 1";
-            _blackBoardTwo.text = "Μαυροπίνακας 2";
-            _blackBoardThree.text = "Μαυροπίνακας 3";
+            _resetObjects.text = "Επαναφορά Αντικειμένων";
+            _resetBoards.text = "Επαναφορά Πινάκων";
+            _whiteBoard.text = "Λευκός Πίνακας";
+            _blackBoardOne.text = "Μαύρος Πίνακας 1";
+            _blackBoardTwo.text = "Μαύρος Πίνακας 2";
+            _blackBoardThree.text = "Μαύρος Πίνακας 3";
             break;
             default:
             break;

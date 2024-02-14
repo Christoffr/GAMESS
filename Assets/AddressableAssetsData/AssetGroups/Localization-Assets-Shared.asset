@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 730bd3aa96e4c164da6b52a5321d959a
+  m_SerializeEntries:
+  - m_GUID: 4b92f5a5dd06c4040af9da2028f28d48
+    m_Address: Assets/LocalizationSettings/Tables/Control Panel Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 2a545848795c0984baf8894759e61408
+    m_Address: Assets/LocalizationSettings/Tables/Lobby Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 3ab7e0f1cae5c414a97186e08dcabb71, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f109b17dc257213498f9cfb256292b09, type: 2}
+    - {fileID: 11400000, guid: 59365fdd76dd5524e856407f85fdb831, type: 2}
